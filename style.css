@@ -1,0 +1,84 @@
+/* CSS -> Hojas de estilo en cascada*/
+
+/* Selector CSS de etiqueta */
+
+/* Regla CSS */
+
+/* etiqueta {
+   propiedad1: valor1
+   propiedad2: valor2
+   propiedad3: valor3
+}
+*/
+
+/* Regla -> Rule (copia incluyendo los corchetes */
+/* Declaracion -> Declaration (copia solo la propiedad) */
+
+
+h2 {
+    color: green;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+p {
+   color: blue;
+   font-size: 15px; 
+   text-align: justify;
+}
+
+h3 {
+    color: pink;
+    font-size: 30px;
+    text-align: right;
+}
+
+/* ! Clase o id (puedo darle un estilo a un elemento que yo decida) */
+
+/*  Id no se usa par estilo -> solo se puede usasr una vez dentro de un documento html*/
+/* ! puedo crear los id que quiera pero no los puedo repetir */
+ /* Para seleccionar un id uso #*/
+
+ #texto-especial {
+    color: orange;
+ }
+
+ #texto-super-especial {
+    color: red;
+ }
+
+ /* Clase -> lo puedo usar todas las veces que quiera*/
+ /* ! para seleccionar una clase uso el . (punto)*/
+
+ .texto-verde {
+    color: green;
+ }
+
+ .texto-dorado {
+    color: goldenrod;
+ }
+
+ .texto-rosa {
+    color: pink;
+ }
+
+ .texto-grande {
+    font-size: 50px;
+ }
+
+ .texto-chico {
+    font-size: 10px;
+ }
+
+ .parrafo-x {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+ }
+
+ .parrafo-y {
+    color: gold;
+    font-size: 40px;
+    text-align: center;
+ }
