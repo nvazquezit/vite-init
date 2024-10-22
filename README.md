@@ -20,3 +20,18 @@ npm run dev
 
 ```sh
 CRTL + C
+```
+# Para compartir proyecto con otro compañero
+
+* los nodes modules no se comparten
+* El compañero que descarga el proyecto puede instalar de nuevo los nodes modules con:
+
+```sh
+npm install
+
+npm run dev
+```
+
+
+
+
